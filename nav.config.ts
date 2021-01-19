@@ -15,16 +15,12 @@ const c: IConfig = {
   keywords: '导航,前端资源,社区站点,设计师,实用工具,学习资源,运营,网络安全,node.js',
 
   // 默认主题: Light | Sim
-  theme: 'Light',
+  theme: 'Sim',
 
   // 搜索引擎列表, 为空时不显示搜索引擎
   // 自定义引擎 icon 请使用网络图标
   searchEngineList: [
-    {
-      name: '站内',
-      icon: 'assets/logo.png',
-      placeholder: '站内搜索'
-    },
+    
     {
       name: '百度',
       url: 'https://www.baidu.com/s?wd=',
@@ -35,6 +31,11 @@ const c: IConfig = {
       name: 'Google',
       url: 'https://www.google.com/search?q=',
       icon: 'assets/engine/google.svg',
+    },
+    {
+      name: '站内',
+      icon: 'assets/logo.png',
+      placeholder: '站内搜索'
     },
     {
       name: '必应',
